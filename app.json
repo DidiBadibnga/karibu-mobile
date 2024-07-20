@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "kitoko",
+    "slug": "kitoko",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "extra": {
+      "extra": "process.env.CLERK_PUBLISHABLE_KEY",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "68b9d47f-0178-4c7c-b9ba-bc5412757062"
+      }
+    },
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/brand/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/brand/logo.png",
+        "backgroundColor": "#F7F9F2"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/brand/.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Nunito-Regular.ttf"
+          ]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "owner": "dibaka"
+  }
+}
